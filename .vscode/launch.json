@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Build and Run",
+      "name": "C++: Build and Run",
       "type": "cppdbg",
       "request": "launch",
       "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
@@ -21,6 +21,26 @@
         "MIMode": "lldb"
       },
       "preLaunchTask": "build",
+    },     {
+      "name": "C: Build and Run",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "windows": {
+        "MIMode": "gdb",
+      },
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "c_build",
     }
   ]
 }
