@@ -8,8 +8,8 @@ int main(int argc, char* argv[]) {
 
   Person *pHarry = &harry;
 
-  cout << sizeof(harry) << endl;
-  cout << sizeof(pHarry) << endl;
+  cout << "Harry object: " << sizeof(harry) << "bytes" << endl;
+  cout << "Pointer to Harry object: " << sizeof(pHarry) << "bytes" << endl;
 
   return 0;
 }
