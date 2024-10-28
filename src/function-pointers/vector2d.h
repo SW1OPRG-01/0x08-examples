@@ -1,19 +1,19 @@
 #ifndef VECTOR2D_H
 #define VECTOR2D_H 
 
-typedef struct Point Point;
+typedef struct Vector2D Vector2D;
 
-typedef void (*display)(Point*);  
-typedef void (*calculate)(Point*, int x, int y);
+typedef void (*display)(Vector2D*);  
+typedef void (*calculate)(Vector2D*, int x, int y);
 
-struct Point {
+struct Vector2D {
   int x;
   int y;
   display display;
   calculate calculate;
 };
 
-Point init(int, int, calculate);
-void print(Point*);
+Vector2D init(int, int, calculate);
+void print(Vector2D*);
 
 #endif

@@ -1,8 +1,8 @@
 #include "vector2d.h"
 #include <stdio.h>
-// Function to initialize a Point struct
-Point init(int x, int y, calculate calc) {
-    Point p;
+// Function to initialize a Vector2D struct
+Vector2D init(int x, int y, calculate calc) {
+    Vector2D p;
     p.x = x;
     p.y = y;
     p.display = print;  // Default display function
@@ -11,6 +11,6 @@ Point init(int x, int y, calculate calc) {
 }
 
 // Display function
-void print(Point *p) {
-    printf("Point(%d, %d)\n", p->x, p->y);
+void print(Vector2D *p) {
+    printf("Vector2D(%d, %d)\n", p->x, p->y);
 }
