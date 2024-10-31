@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
   strings[0] = as_sequence;
   strings[1] = as_pointer;
 
-  for(size_t i = 0; i < sizeof(strings) / sizeof(char**); i++) {
+  for(size_t i = 0; i < sizeof(strings) / sizeof(char*); i++) {
     printf("%p %s\n", strings[i], strings[i]);
   }
 
