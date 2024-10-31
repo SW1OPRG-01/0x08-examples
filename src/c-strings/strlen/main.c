@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-  char *pGreeting = "Hello, SW1OPRG-01\n";
+  char *pGreeting = "Hello, SW1OPRG-01";
   char aGreeting[] = "Hello, SW1OPRG-\01";
   
   int len_p = strlen(pGreeting);

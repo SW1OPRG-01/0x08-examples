@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
+int main() {
   char *code_oprg = "SW1PRG-01";
   char *code_msys = "SW1MSYS-01";
 
