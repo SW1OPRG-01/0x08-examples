@@ -23,19 +23,19 @@
       "path": "pointer/arithmetic"
     },
     {
-      "path": "c-strings/initialization"
+      "path": "c-string/initialization"
     },
     {
-      "path": "c-strings/strcat"
+      "path": "c-string/strcat"
     },
     {
-      "path": "c-strings/strcmp"
+      "path": "c-string/strcmp"
     },
     {
-      "path": "c-strings/strcpy"
+      "path": "c-string/strcpy"
     },
     {
-      "path": "c-strings/strlen"
+      "path": "c-string/strlen"
     }
   ],
   "settings": {}
