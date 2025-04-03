@@ -36,6 +36,12 @@
     },
     {
       "path": "c-string/strlen"
+    },
+    {
+      "path": "c-elements/inputs-and-outputs"
+    },
+    {
+      "path": "c-elements/format-specifiers"
     }
   ],
   "settings": {}

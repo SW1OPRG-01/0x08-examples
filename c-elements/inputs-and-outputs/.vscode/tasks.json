@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "cppbuild",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "main.c",
+        "-o",
+        "${workspaceFolder}/build/input-and-outputs"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    },
+  ]
+}
