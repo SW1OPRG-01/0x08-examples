@@ -21,6 +21,9 @@
     },
     {
       "path": "pointer/arithmetic"
+    },
+    {
+      "path": "c-strings/initialization"
     }
   ],
   "settings": {}
