@@ -12,6 +12,9 @@
     },
     {
       "path": "pointer/first-pointer"
+    },
+    {
+      "path": "pointer/pass-by-val-ref"
     }
   ],
   "settings": {}

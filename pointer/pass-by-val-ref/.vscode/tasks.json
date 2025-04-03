@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "cppbuild",
+      "command": "g++",
+      "args": [
+        "-g",
+        "-std=c++20",
+        "main.cpp",
+        "person.cpp",
+        "-o",
+        "${workspaceFolder}/build/person"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    },
+  ]
+}
