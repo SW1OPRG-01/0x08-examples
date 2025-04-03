@@ -15,6 +15,9 @@
     },
     {
       "path": "pointer/pass-by-val-ref"
+    },
+    {
+      "path": "pointer/sizeof"
     }
   ],
   "settings": {}
