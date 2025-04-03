@@ -9,6 +9,9 @@
     },
     {
       "path": "array/initialization"
+    },
+    {
+      "path": "pointer/first-pointer"
     }
   ],
   "settings": {}
