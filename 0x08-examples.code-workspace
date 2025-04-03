@@ -18,6 +18,9 @@
     },
     {
       "path": "pointer/sizeof"
+    },
+    {
+      "path": "pointer/arithmetic"
     }
   ],
   "settings": {}
