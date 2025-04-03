@@ -12,13 +12,13 @@ void add(Vector2D *p, int x, int y) {
 }
 
 void show(Vector2D *p) {
-  printf("x: %d, y: %d", p->x, p->y);
+  printf("x: %d, y: %d\n", p->x, p->y);
 }
 
 int main() {
 
-  Vector2D p1 = init(0, 0, add);
-  Vector2D p2 = {2, 2, show, multiply};
+  Vector2D p1 = init(3, 4, add);
+  Vector2D p2 = {6, 9, show, multiply};
 
   p1.calculate(&p1, 2, 2);
   p2.calculate(&p2, 4, 4);

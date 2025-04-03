@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-first-array",
+      "type": "cppbuild",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "main.c",
+        "-o",
+        "${workspaceFolder}/build/first-array"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src/first-array"
+      },
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    },
+    {
+      "label": "build-initialization",
+      "type": "cppbuild",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "main.c",
+        "-o",
+        "${workspaceFolder}/build/initialization"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src/initialization"
+      },
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ],
+    },
+  ]
+}

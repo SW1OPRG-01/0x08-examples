@@ -2,18 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C Build and Run",
+      "name": "Build and Run",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
+      "program": "${workspaceFolder}/build/first-array",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": false,
+      "externalConsole": true,
       "internalConsoleOptions": "openOnSessionStart",
       "windows": {
-        "MIMode": "gdb",
+        "MIMode": "gdb"
       },
       "linux": {
         "MIMode": "gdb"
@@ -21,20 +21,21 @@
       "osx": {
         "MIMode": "lldb"
       },
-      "preLaunchTask": "c_build",
-    }, {
-      "name": "C++ Build and Run",
+      "preLaunchTask": "build-first-array"
+    },
+    {
+      "name": "Build and Run",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}.out",
+      "program": "${workspaceFolder}/build/initialization",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
-      "externalConsole": false,
+      "externalConsole": true,
       "internalConsoleOptions": "openOnSessionStart",
       "windows": {
-        "MIMode": "gdb",
+        "MIMode": "gdb"
       },
       "linux": {
         "MIMode": "gdb"
@@ -42,7 +43,7 @@
       "osx": {
         "MIMode": "lldb"
       },
-      "preLaunchTask": "build",
+      "preLaunchTask": "build-initialization"
     },
   ]
 }

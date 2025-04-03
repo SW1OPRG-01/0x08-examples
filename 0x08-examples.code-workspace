@@ -1,0 +1,15 @@
+{
+	"folders": [
+    {
+      "name": "0x08-examples",
+      "path": "."
+    },
+    {
+      "path": "array/first-array"
+    },
+    {
+      "path": "array/initialization"
+    }
+  ],
+  "settings": {}
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and Run",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/initialization",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "internalConsoleOptions": "openOnSessionStart",
+      "windows": {
+        "MIMode": "gdb"
+      },
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "preLaunchTask": "build"
+    },
+  ]
+}
